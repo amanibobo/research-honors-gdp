@@ -17,18 +17,17 @@ export default function Refrences() {
                 Links:
                 <div className="text-base flex flex-col gap-6 mt-6">
                   <p>
-                    {'https://www.energy.gov/eere/articles/bioenergy-renewable-sustainable-attainable'}
+                    {'Abar, Beau, et al. “Associations between Reasons to Attend and Late High School Dropout.” Learning and Individual Differences, vol. 22, no. 6, Dec. 2012, pp. 856–61, https://doi.org/10.1016/j.lindif.2012.05.009. Accessed 15 Dec. 2019.'}
                   </p>
                   <p>
-                    {'https://www.chartjs.org/docs/latest/samples/title/alignment.html'}
+                    {'“Best Practices for Tardy Management in Schools - SchoolMint.” Blog.schoolmint.com, blog.schoolmint.com/best-practices-for-tardy-management-in-schools#:~:text=Tardy%20Management%20Tip%202%3A%20Use. Accessed 7 Nov. 2023.'}
                   </p>
                   <p>
-                    {'https://www.epa.gov/energy/clean-energy-programs#renewable'}
+                    {'Zhao, Mingtao, et al. “College Smart Classroom Attendance Management System Based on Internet of Things.” Computational Intelligence and Neuroscience, edited by Guobin Chen, vol. 2022, July 2022, pp. 1–9, https://doi.org/10.1155/2022/4953721. Accessed 21 Nov. 2022.'}
                   </p>
                   <p>
-                    {'https://psc.ga.gov/utilities/electric/purple-power-pricing/#:~:text=The%20Simple%20Solar%20Program%20enables,resources%20on%20the%20customer'}.
+                    {'Richards, Jason. “How to Reduce Tardiness in High Schools.” Minga.io, 30 Mar. 2023, minga.io/how-to-reduce-tardiness-in-high-schools/.'}.
                   </p>
-                  <p> {'https://www.energystar.gov/saveathome'} </p>
                 </div>
               </p>
             </div>
