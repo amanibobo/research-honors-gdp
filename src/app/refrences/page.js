@@ -17,18 +17,18 @@ export default function Refrences() {
                 Links:
                 <div className="text-base flex flex-col gap-6 mt-6">
                   <p>
-                    https://www.energy.gov/eere/articles/bioenergy-renewable-sustainable-attainable{" "}
+                    {'https://www.energy.gov/eere/articles/bioenergy-renewable-sustainable-attainable'}
                   </p>
                   <p>
-                    https://www.chartjs.org/docs/latest/samples/title/alignment.html{" "}
+                    {'https://www.chartjs.org/docs/latest/samples/title/alignment.html'}
                   </p>
                   <p>
-                    https://www.epa.gov/energy/clean-energy-programs#renewable
+                    {'https://www.epa.gov/energy/clean-energy-programs#renewable'}
                   </p>
                   <p>
-                    https://psc.ga.gov/utilities/electric/purple-power-pricing/#:~:text=The%20Simple%20Solar%20Program%20enables,resources%20on%20the%20customer's%20behalf.
+                    {'https://psc.ga.gov/utilities/electric/purple-power-pricing/#:~:text=The%20Simple%20Solar%20Program%20enables,resources%20on%20the%20customer'}.
                   </p>
-                  <p>https://www.energystar.gov/saveathome</p>
+                  <p> {'https://www.energystar.gov/saveathome'} </p>
                 </div>
               </p>
             </div>
