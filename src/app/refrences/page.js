@@ -31,22 +31,6 @@ export default function Refrences() {
                   <p>https://www.energystar.gov/saveathome</p>
                 </div>
               </p>
-
-              <p className="mt-6 text-zinc-700 text-xl">
-                Images:
-                <div className="text-base flex flex-col gap-6 mt-6">
-                  <p>
-                    https://www.scientificamerican.com/article/carbon-emissions-hit-a-new-record-high/
-                  </p>
-                  <p>
-                    https://www.britannica.com/money/topic/natural-resource-management
-                  </p>
-                  <p>https://www.epa.gov/waterdata/water-quality-data</p>
-                  <p>
-                    https://unsplash.com/photos/blue-solar-panel-WvusC5M-TM8
-                  </p>
-                </div>
-              </p>
             </div>
           </div>
 
