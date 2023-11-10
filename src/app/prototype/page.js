@@ -1,7 +1,7 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import NavBar from "@/components/NavBar";
 import { Button } from "@/components/ui/button";
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Prototype() {
   return (
@@ -36,30 +36,33 @@ export default function Prototype() {
             is scanned, the user is prompted with a dropdown box of reasons why
             they were late. Once they choose a reason on why they were late,
             they can hit the submit button and then the students id and reason
-            is sent to a Mongo DB database which I (Amani Bobo) am working on creating a way
-            to send that data to an admins email/infinite campus.
+            is sent to a Mongo DB database which I (Amani Bobo) am working on
+            creating a way to send that data to an admins email/infinite campus.
           </p>
 
-          <Link href="https://github.com/amanibobo/BarcodeScanny" target={"_blank"}>
+          <Link
+            href="https://github.com/amanibobo/BarcodeScanny"
+            target={"_blank"}
+          >
             <Button className="bg-purple-800 hover:bg-purple-900 mr-2">
               Learn More Here
             </Button>
           </Link>
         </div>
 
-        <h1 className="text-3xl font-semibold mb-6 mt-20">
-                Video Demo of App
-          </h1>
+        <h1 className="text-3xl font-semibold mb-6 mt-20">Video Demo of App</h1>
 
         <div>
-            <div className="mb-16 mx-auto max-w-4xl px-6 lg:px-8">
-              <div className="mt-20 flow-root sm:mt-15">
-                <div className="items-center justify-center -mt-2 rounded-xl bg-gray-700/5 p-2 ring-1 ring-inset ring-blue-900/10 lg:-m-12 lg:rounded-2xl lg:p-4">
-                   {/*PlaceHolder for Video*/}
-                </div>
+          <div className="mb-16 mx-auto max-w-4xl px-6 lg:px-8">
+            <div className="mt-20 flow-root sm:mt-15">
+              <div className="items-center justify-center -mt-2 rounded-xl bg-gray-700/5 p-2 ring-1 ring-inset ring-blue-900/10 lg:-m-12 lg:rounded-2xl lg:p-4">
+                <video autoPlay muted loop>
+                  <source src="Presentation1.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>
+        </div>
       </MaxWidthWrapper>
     </>
   );
